@@ -1,0 +1,26 @@
+Application: InsecureBankv2
+Package: com.android.insecurebankv2
+
+=== Security Score ===
+Score: 7.4 / 10
+Niveau: Average
+
+=== Issues détectées ===
+1. Storage of sensitive information in SharedPreferences
+   → Risque: données utilisateur stockées en clair
+
+2. Sensitive Information in Logs
+   → Risque: fuite de données via logcat
+
+3. Exported Activity
+   → Risque: accès non autorisé à des composants
+
+4. Possible Secret Detected
+   → Risque: clés/API exposées dans le code
+
+5. Insecure HTTP Client Used
+   → Risque: communication non sécurisée (MITM)
+
+=== Analyse ===
+L’application présente des vulnérabilités liées à la gestion des données sensibles et à la configuration Android.
+Ces problèmes peuvent être exploités pour accéder à des informations utilisateur ou intercepter des communications.

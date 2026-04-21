@@ -1,0 +1,11 @@
+﻿ID,Source,Element,Preuve,Confiance,Severite,Impact,Recommandation,Reference OWASP,Statut
+FIND-001,BeVigil,Stockage données sensibles,bevigil_export.json,Haute,High,Fuite de données utilisateur,Chiffrer les données locales,,Confirmé
+FIND-002,BeVigil+Yaazhini,Logs sensibles,bevigil + yaazhini logs,Haute,Medium,Exposition via logcat,Nettoyer logs sensibles,,Confirmé
+FIND-003,BeVigil+Yaazhini,HTTP non sécurisé,network config,Haute,High,Attaque MITM possible,Utiliser HTTPS,,Confirmé
+FIND-004,Yaazhini,Activités exportées,AndroidManifest.xml,Haute,Medium,Accès non autorisé,Restreindre export,,Confirmé
+FIND-005,Yaazhini,SDK obsolète,App Summary,Moyenne,Medium,Vulnérabilités connues,Mise à jour SDK,,Confirmé
+FIND-006,Yaazhini,Secrets dans code,code analysis,Moyenne,High,Fuite clés API,Sécuriser secrets,,À confirmer
+FIND-007,BeVigil,Endpoints exposés,URLs detectées,Moyenne,Medium,Accès API externe,Restreindre accès,,À confirmer
+FIND-008,Yaazhini,Permissions sensibles,Permissions,Moyenne,Low,Risque abus permission,Limiter permissions,,Confirmé
+FIND-009,Analyse,Aucune protection avancée,global,Moyenne,Low,Faible sécurité globale,Ajouter protections,,Confirmé
+FIND-010,Analyse,Configuration faible,global,Moyenne,Medium,Risque général,Durcir configuration,,Confirmé

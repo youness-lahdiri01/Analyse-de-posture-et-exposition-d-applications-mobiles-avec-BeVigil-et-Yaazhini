@@ -1,0 +1,10 @@
+﻿Date: 2026-04-21
+Analyste: LAHDIRI Youness
+Cible: insurebank.apk
+Artefact: insurebank.apk
+Provenance: LAB 8 - MLIAEdu
+Hash: B18AF2A0E44D7634BBCDF93664D9C78A2695E050393FCFBB5E8B91F902D194A4
+Versions outils:
+- BeVigil: Web Platform
+  - Yaazhini: [version]
+Environnement: Windows Windows 10 Pro

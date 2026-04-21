@@ -1,0 +1,28 @@
+Application: InsecureBankv2
+Package: com.android.insecurebankv2
+
+=== Informations générales ===
+Min SDK: 15 (ancien → vulnérable)
+Target SDK: 22 (obsolète)
+
+=== Vulnérabilités ===
+- Données sensibles stockées localement
+- Présence possible de secrets dans le code
+- Logs contenant informations sensibles
+
+=== Permissions ===
+- INTERNET (communication réseau)
+- Accès stockage possible
+
+=== Endpoints / URLs ===
+- Présence de endpoints HTTP non sécurisés
+
+=== Composants ===
+- Activités potentiellement exportées
+- Risque d’accès non autorisé
+
+=== Analyse ===
+L’application présente plusieurs faiblesses internes :
+- mauvaise gestion des données sensibles
+- utilisation de technologies obsolètes
+- exposition possible de composants Android
